@@ -1,0 +1,8 @@
+{
+  "extends": "@ufly/wfc/rc/tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src"
+  },
+  "include": ["src", "lib"],
+  "exclude": ["node_modules", "dist", "public", "build", "**/*.spec.ts", "src/.umi/**/*"]
+}

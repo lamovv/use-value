@@ -1,0 +1,9 @@
+# do not lint test case source files
+.*
+dist
+build
+mock
+demo
+docs
+jsdoc
+test

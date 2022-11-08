@@ -1,7 +1,7 @@
 import { SetStateAction } from 'react';
 
 // 函数组件属性
-export interface IFCProps<T> {
+export interface IFCProps<T = any> {
   className?: string;
   value?: T;
   readonly defaultValue?: T;

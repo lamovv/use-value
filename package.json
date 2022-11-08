@@ -48,6 +48,7 @@
     "postbeta": "npm publish --tag beta",
     "alpha": "standard-version --skip.tag --skip.commit -p alpha",
     "postalpha": "npm publish --tag alpha",
-    "postinstall": "wfc install || true"
+    "postinstall": "wfc install || true",
+    "postrelease": "npx cnpm sync || true"
   }
 }

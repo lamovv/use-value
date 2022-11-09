@@ -1,5 +1,5 @@
 /**
- * 计数器组件，同时输出子组件
+ * @desc 处置props.[value|defaultValue|onChange]，使组件兼顾具控与非受控方式
  */
 import { useCallback, useMemo, useRef, useState } from 'react';
 import { IFCProps, noop, PickFunction, TSetStateAction } from './interface';
